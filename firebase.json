@@ -1,0 +1,51 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "dealends",
+          "appId": "1:282466625015:android:017c26fb636a106e62faf2",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "dealends",
+          "configurations": {
+            "android": "1:282466625015:android:017c26fb636a106e62faf2",
+            "ios": "1:282466625015:ios:0d74e106217ed4db62faf2",
+            "macos": "1:282466625015:ios:0d74e106217ed4db62faf2",
+            "web": "1:282466625015:web:5abb3784451143da62faf2",
+            "windows": "1:282466625015:web:ab96f72dc8b1bcd662faf2"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "source": "functions"
+    },
+    {
+      "source": "dealends-functions",
+      "codebase": "dealends-functions",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}

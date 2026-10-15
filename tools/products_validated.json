@@ -1,0 +1,10 @@
+[
+  {
+    "productId": "worker-test-001",
+    "name": "Test Product",
+    "price": 999,
+    "originalPrice": 1499,
+    "store": "Test Store",
+    "discountPercent": 33.36
+  }
+]
